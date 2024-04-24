@@ -1,0 +1,14 @@
+.handleSubmit{
+    border: 1px solid white;
+    border-radius: .5rem;
+    height: 2.3rem;
+    width: 15rem;
+    margin: 0 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Estilos para telas menores que 600px de largura */
+    .handleSubmit {
+        margin: 1rem;
+    }
+}

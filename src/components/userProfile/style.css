@@ -1,0 +1,30 @@
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+.contentsProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contentsProfile p {
+    margin: .2rem;
+}
+
+.imgProfile{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 10rem;
+    margin-right: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Estilos para telas menores que 600px de largura */
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+}
